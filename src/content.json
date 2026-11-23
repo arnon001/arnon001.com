@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "title": {
+      "en": "Arnon Hacohen — Self-taught Full Stack Developer",
+      "he": "ארנון הכהן — מפתח Full Stack אוטודידקט"
+    },
+    "description": {
+      "en": "19, from Israel, self-taught full stack developer. I rebuild stuff I love — including bringing the browser game Ekoloko back online after five years.",
+      "he": "בן 19 מישראל, מפתח Full Stack אוטודידקט. אני בונה מחדש דברים שאני אוהב — כולל החזרת המשחק אקולוקו לפעילות אחרי חמש שנים."
+    },
+    "url": "https://arnon001.com/",
+    "ogImage": "images/og.png",
+    "ogImageAlt": {
+      "en": "Arnon Hacohen — developer portfolio, CRT terminal theme",
+      "he": "ארנון הכהן — תיק עבודות למפתח, בעיצוב מסוף CRT"
+    },
+    "themeColor": "#080b0e",
+    "twitter": "@arnon001"
+  },
+  "ui": {
+    "skip": { "en": "Skip to content", "he": "דלג לתוכן" },
+    "language": { "en": "עברית", "he": "English" },
+    "languageLabel": { "en": "Switch language to Hebrew", "he": "החלף שפה לאנגלית" },
+    "menuOpen": { "en": "Open menu", "he": "פתח תפריט" },
+    "menuClose": { "en": "Close menu", "he": "סגור תפריט" },
+    "crtOn": { "en": "CRT filter: on", "he": "מסנן CRT: פעיל" },
+    "crtOff": { "en": "CRT filter: off", "he": "מסנן CRT: כבוי" },
+    "crtLabel": { "en": "Toggle CRT scanline filter", "he": "הפעל או כבה מסנן סריקות CRT" },
+    "comingSoon": { "en": "coming soon", "he": "בקרוב" },
+    "scrollHint": { "en": "scroll", "he": "גלול" },
+    "copyEmail": { "en": "Copy email", "he": "העתק אימייל" },
+    "copied": { "en": "Copied to clipboard", "he": "הועתק ללוח" },
+    "copyFailed": { "en": "Select and copy manually", "he": "סמן והעתק ידנית" },
+    "backToTop": { "en": "Return to title screen", "he": "חזרה למסך הפתיחה" },
+    "cheat": { "en": "Cheat activated — CRT overdrive", "he": "קוד הופעל — CRT בעוצמה מלאה" },
+    "sectionLabel": { "en": "Section", "he": "מקטע" }
+  },
+  "nav": [
+    { "id": "about", "label": { "en": "About", "he": "אודות" } },
+    { "id": "projects", "label": { "en": "Projects", "he": "פרויקטים" } },
+    { "id": "skills", "label": { "en": "Skills", "he": "כישורים" } },
+    { "id": "personal", "label": { "en": "Personal", "he": "אישי" } },
+    { "id": "contact", "label": { "en": "Contact", "he": "צור קשר" } }
+  ],
+  "hero": {
+    "eyebrow": { "en": "Self-taught full stack dev", "he": "מפתח Full Stack אוטודידקט" },
+    "name": "ARNON HACOHEN",
+    "nameHe": "ארנון הכהן",
+    "pitch": { "en": "I rebuild stuff I love.", "he": "אני בונה מחדש דברים שאני אוהב." },
+    "lede": {
+      "en": "19, from Israel. I wrote my first game in Java at around 10 and never really stopped. These days I split my time between full stack work and dragging old games back from the dead.",
+      "he": "בן 19, מישראל. כתבתי את המשחק הראשון שלי ב-Java בגיל 10 בערך, ומאז לא באמת עצרתי. היום אני מחלק את הזמן בין עבודת Full Stack לבין החזרת משחקים ישנים לחיים."
+    },
+    "primaryCta": { "en": "Press start", "he": "התחל משחק" },
+    "secondaryCta": { "en": "Get in touch", "he": "דבר איתי" },
+    "card": {
+      "title": { "en": "Player card", "he": "כרטיס שחקן" },
+      "handle": "arnon001",
+      "class": { "en": "Full stack developer", "he": "מפתח Full Stack" },
+      "stats": [
+        { "label": { "en": "Level", "he": "רמה" }, "value": "19", "fill": 63 },
+        { "label": { "en": "Server", "he": "שרת" }, "value": "IL", "fill": 100 },
+        { "label": { "en": "Grind", "he": "ותק" }, "value": "9 yrs", "fill": 90 },
+        { "label": { "en": "Stack", "he": "סטאק" }, "value": "TS/Node", "fill": 85 }
+      ],
+      "status": { "en": "Open to interesting projects", "he": "פתוח לפרויקטים מעניינים" }
+    }
+  },
+  "about": {
+    "index": "01",
+    "heading": { "en": "About", "he": "אודות" },
+    "kicker": { "en": "How I got here", "he": "איך הגעתי לפה" },
+    "paragraphs": [
+      {
+        "en": "I'm Arnon, 19, from Israel. I got into coding by accident — around 10 I built my first game in Java, mostly because I wanted to make the things I was playing. That turned into a habit I never dropped.",
+        "he": "אני ארנון, בן 19, מישראל. הגעתי לתכנות בטעות — בגיל 10 בערך בניתי את המשחק הראשון שלי ב-Java, בעיקר כי רציתי ליצור את הדברים ששיחקתי בהם. זה הפך להרגל שמעולם לא זנחתי."
+      },
+      {
+        "en": "I'm self-taught, which means I learn by shipping: pick something I care about, break it, read the source, rebuild it. I love PC games, and a lot of my work starts as \"this should exist again\".",
+        "he": "אני אוטודידקט, כלומר אני לומד תוך כדי בנייה: בוחר משהו שאכפת לי ממנו, שובר אותו, קורא את הקוד, ובונה מחדש. אני אוהב משחקי מחשב, והרבה מהעבודה שלי מתחילה במחשבה ש\"זה צריך להיות קיים שוב\"."
+      },
+      {
+        "en": "Right now that means TypeScript and Node on the backend, Linux on a server I run myself, and a lot of AI-assisted coding to move faster than I could alone.",
+        "he": "כרגע זה אומר TypeScript ו-Node בצד השרת, Linux על שרת שאני מנהל בעצמי, והרבה קידוד בעזרת AI כדי להתקדם מהר יותר ממה שאוכל לבד."
+      }
+    ],
+    "facts": [
+      { "label": { "en": "Based in", "he": "מיקום" }, "value": { "en": "Israel", "he": "ישראל" } },
+      { "label": { "en": "First game", "he": "משחק ראשון" }, "value": { "en": "Java, age ~10", "he": "Java, גיל 10" } },
+      { "label": { "en": "Learning style", "he": "סגנון למידה" }, "value": { "en": "Self-taught", "he": "אוטודידקט" } },
+      { "label": { "en": "Daily driver", "he": "סביבת עבודה" }, "value": { "en": "Linux + Node", "he": "Linux + Node" } }
+    ],
+    "terminal": {
+      "title": "arnon@israel:~",
+      "lines": [
+        {
+          "cmd": "whoami",
+          "out": { "en": "self-taught full stack dev, 19, IL", "he": "מפתח Full Stack אוטודידקט, בן 19, ישראל" }
+        },
+        {
+          "cmd": "cat stack.txt",
+          "out": { "en": "typescript · node · linux · mysql", "he": "typescript · node · linux · mysql" }
+        },
+        {
+          "cmd": "uptime --coding",
+          "out": { "en": "9 years, still going", "he": "9 שנים, ועדיין ממשיך" }
+        }
+      ]
+    }
+  },
+  "projects": {
+    "index": "02",
+    "heading": { "en": "Projects", "he": "פרויקטים" },
+    "kicker": { "en": "Things I rebuilt", "he": "דברים שבניתי מחדש" },
+    "items": [
+      {
+        "id": "ekoloko",
+        "index": "01",
+        "title": { "en": "Ekoloko Rewritten", "he": "אקולוקו — בנייה מחדש" },
+        "tagline": { "en": "Bringing a dead MMO back online", "he": "מחזירים MMO כבוי לפעילות" },
+        "status": { "en": "In progress", "he": "בעבודה" },
+        "year": "2025 — now",
+        "summary": {
+          "en": "I help rebuild the server side of Ekoloko so the game can return after more than five years offline.",
+          "he": "אני עוזר לבנות מחדש את צד השרת של אקולוקו, כדי שהמשחק יחזור לפעילות אחרי יותר מחמש שנים שבהן היה כבוי."
+        },
+        "detail": {
+          "en": "The original client survived in web archives; the backend did not. So we reconstruct it — packet by packet, room by room — vibe coded in ActionScript and driven by a lot of guesswork, old screenshots and packet captures. The goal is a playable hub world again, not a museum piece.",
+          "he": "הקליינט המקורי שרד בארכיוני רשת; צד השרת לא. אז אנחנו משחזרים אותו — חבילה אחרי חבילה, חדר אחרי חדר — בקידוד ActionScript ובהשערות מושכלות, בעזרת צילומי מסך ישנים ולכידות תעבורה. המטרה היא עולם משחק שאפשר לשחק בו שוב, לא פריט מוזיאון."
+        },
+        "tech": ["ActionScript 3", "Node.js", "Linux", "AI-assisted dev", "Reverse engineering"],
+        "media": {
+          "src": "images/ekoloko.svg",
+          "alt": {
+            "en": "Stylized screenshot of the rebuilt Ekoloko hub world: an island village with avatars, chat log, minimap and skill bar.",
+            "he": "צילום מסך מסוגנן של עולם המשחק אקולוקו שנבנה מחדש: כפר אי עם דמויות, צ'אט, מיני-מפה וסרגל מיומנויות."
+          },
+          "width": 1024,
+          "height": 768
+        },
+        "links": [
+          {
+            "label": { "en": "The story on LinkedIn", "he": "הסיפור בלינקדאין" },
+            "url": "https://www.linkedin.com/pulse/ekoloko-from-web-archive-living-game-arnon-hacohen-afrjf/",
+            "kind": "story"
+          }
+        ]
+      },
+      {
+        "id": "flight-arcade",
+        "index": "02",
+        "title": { "en": "Flight Arcade", "he": "Flight Arcade" },
+        "tagline": { "en": "A pocket arcade cabinet", "he": "מכונת ארקייד לכיס" },
+        "status": { "en": "Shipped", "he": "שוחרר" },
+        "year": "2025",
+        "summary": {
+          "en": "A mobile arcade game collection — a Ball Blast-style shooter, a Subway Surfers-style runner and a set of mini games — shipped as an Android APK.",
+          "he": "אוסף משחקי ארקייד למובייל — יריות בסגנון Ball Blast, ראנר בסגנון Subway Surfers ומשחקוני מיני — שיצא לאור כקובץ APK לאנדרואיד."
+        },
+        "detail": {
+          "en": "Built as one collection instead of three separate apps: shared menus, shared progression, one install. The shooter is about numbered blocks and a cannon that never stops upgrading; the runner is three lanes and reflexes. Small sessions, instant restart, no waiting around.",
+          "he": "נבנה כאוסף אחד ולא כשלוש אפליקציות נפרדות: תפריטים משותפים, התקדמות משותפת, התקנה אחת. משחק היריות עוסק בבלוקים ממוספרים ובתותח שמשתדרג ללא הפסקה; הראנר הוא שלושה נתיבים ורפלקסים. סשנים קצרים, התחלה מחדש מיידית, בלי זמני המתנה מיותרים."
+        },
+        "tech": ["Android APK", "Game dev", "TypeScript", "AI Coding"],
+        "media": {
+          "src": "images/flight-arcade.svg",
+          "alt": {
+            "en": "Stylized screenshot of the Flight Arcade collection: a shooter with numbered blocks, a three-lane runner and a mini game selection grid.",
+            "he": "צילום מסך מסוגנן של אוסף Flight Arcade: משחק יריות עם בלוקים ממוספרים, ראנר בשלושה נתיבים וגריד בחירת משחקונים."
+          },
+          "width": 1024,
+          "height": 768
+        },
+        "links": [
+          {
+            "label": { "en": "Source code", "he": "קוד מקור" },
+            "url": "",
+            "kind": "source",
+            "pending": true
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "index": "03",
+    "heading": { "en": "Skills", "he": "כישורים" },
+    "kicker": { "en": "Loadout", "he": "ציוד" },
+    "note": {
+      "en": "Everything here is something I actually use, not a checklist I collected.",
+      "he": "כל מה שמופיע כאן הוא משהו שאני באמת משתמש בו, לא רשימה שאספתי."
+    },
+    "groups": [
+      {
+        "id": "languages",
+        "label": { "en": "Languages", "he": "שפות" },
+        "items": ["TypeScript", "JavaScript", "Java", "ActionScript 3", "HTML & CSS", "SQL"]
+      },
+      {
+        "id": "frameworks",
+        "label": { "en": "Frameworks / engines", "he": "ספריות ומנועים" },
+        "items": ["Node.js", "Vite", "Express", "Phaser", "Flash / AS3 runtime"]
+      },
+      {
+        "id": "backend",
+        "label": { "en": "Backend & DevOps", "he": "שרת ו-DevOps" },
+        "items": ["Linux", "Nginx", "MySQL", "MongoDB", "PM2", "GitHub Actions"]
+      },
+      {
+        "id": "tools",
+        "label": { "en": "Tools", "he": "כלים" },
+        "items": ["Git & GitHub", "VS Code", "AI Coding", "npm", "Chrome DevTools", "Postman"]
+      }
+    ]
+  },
+  "personal": {
+    "index": "04",
+    "heading": { "en": "Outside code", "he": "מחוץ לקוד" },
+    "kicker": { "en": "Side quests", "he": "משימות צד" },
+    "items": [
+      {
+        "icon": "ball",
+        "title": { "en": "Hapoel Jerusalem", "he": "הפועל ירושלים" },
+        "text": {
+          "en": "Lifelong fan. Red and black, win or lose — and I still believe next season is ours.",
+          "he": "אוהד מגיל צעיר. אדום ושחור, בניצחון או בהפסד — ואני עדיין מאמין שהעונה הבאה שלנו."
+        }
+      },
+      {
+        "icon": "plane",
+        "title": { "en": "Travel", "he": "טיולים" },
+        "text": {
+          "en": "I love going somewhere new. New places reset my head better than any break from the keyboard.",
+          "he": "אני אוהב להגיע למקומות חדשים. מקום חדש מאפס לי את הראש טוב יותר מכל הפסקה מהמקלדת."
+        }
+      },
+      {
+        "icon": "gamepad",
+        "title": { "en": "PC games", "he": "משחקי מחשב" },
+        "text": {
+          "en": "The reason I started coding in the first place. If a game I love dies, I'd rather rebuild it than mourn it.",
+          "he": "הסיבה שבגללה התחלתי לתכנת מלכתחילה. אם משחק שאני אוהב נסגר, אני מעדיף לבנות אותו מחדש מאשר להתאבל עליו."
+        }
+      }
+    ]
+  },
+  "contact": {
+    "index": "05",
+    "heading": { "en": "Contact", "he": "צור קשר" },
+    "kicker": { "en": "Insert coin to continue", "he": "הכנס מטבע כדי להמשיך" },
+    "text": {
+      "en": "Got a game that deserves a second life, a project worth building, or just want to talk shop? My inbox is open.",
+      "he": "יש לכם משחק שמגיע לו חיים שניים, פרויקט ששווה לבנות, או שאתם פשוט רוצים לדבר מקצועית? תיבת הדואר שלי פתוחה."
+    },
+    "email": "arnon@arnon001.com",
+    "links": [
+      {
+        "icon": "github",
+        "label": "GitHub",
+        "value": "github.com/arnon001",
+        "url": "https://github.com/arnon001"
+      },
+      {
+        "icon": "linkedin",
+        "label": "LinkedIn",
+        "value": "in/arnon-hacohen",
+        "url": "https://www.linkedin.com/in/arnon-hacohen-afrjf/"
+      }
+    ],
+    "form": {
+      "title": { "en": "Send a message", "he": "שליחת הודעה" },
+      "hint": {
+        "en": "No backend, no tracking — this opens your mail app with the message pre-filled.",
+        "he": "בלי שרת ובלי מעקב — הטופס פותח את אפליקציית המייל שלך עם ההודעה מוכנה מראש."
+      },
+      "name": { "en": "Your name", "he": "השם שלך" },
+      "namePlaceholder": { "en": "Player one", "he": "שחקן מספר אחת" },
+      "email": { "en": "Your email", "he": "האימייל שלך" },
+      "emailPlaceholder": { "en": "you@example.com", "he": "you@example.com" },
+      "message": { "en": "Message", "he": "הודעה" },
+      "messagePlaceholder": { "en": "What are we building?", "he": "מה בונים?" },
+      "submit": { "en": "Send message", "he": "שלח הודעה" },
+      "subject": { "en": "Portfolio contact", "he": "פנייה דרך תיק העבודות" },
+      "sending": { "en": "Opening your mail app…", "he": "פותח את אפליקציית המייל…" },
+      "sent": { "en": "Mail app opened. If nothing happened, email me directly.", "he": "אפליקציית המייל נפתחה. אם כלום לא קרה, שלחו לי מייל ישירות." },
+      "invalid": { "en": "Please fill in your name, a valid email and a message.", "he": "נא למלא שם, אימייל תקין והודעה." }
+    }
+  },
+  "footer": {
+    "built": {
+      "en": "Hand-built with Vite + vanilla TypeScript. No framework, no trackers, one accent color.",
+      "he": "נבנה ידנית עם Vite ו-TypeScript טהור. בלי פריימוורק, בלי כלי מעקב, צבע הדגשה אחד."
+    },
+    "copyright": { "en": "© 2026 Arnon Hacohen", "he": "© 2026 ארנון הכהן" },
+    "hint": { "en": "Try the Konami code.", "he": "נסו את קוד קונאמי." }
+  }
+}

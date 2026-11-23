@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OG source</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: #070a0c; color: #e6f0ec;
+    font-family: 'Segoe UI', system-ui, Arial, sans-serif;
+    position: relative;
+  }
+  .grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(74,246,38,.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(74,246,38,.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 70% at 30% 40%, #000 10%, transparent 75%);
+  }
+  .glow {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(46% 60% at 78% 42%, rgba(74,246,38,.20), transparent 70%),
+      radial-gradient(40% 50% at 12% 88%, rgba(31,122,18,.22), transparent 72%);
+  }
+  .scan { position: absolute; inset: 0; background: repeating-linear-gradient(180deg, rgba(0,0,0,.30) 0 2px, transparent 2px 4px); opacity: .5; }
+  .vig { position: absolute; inset: 0; background: radial-gradient(ellipse 110% 90% at 50% 45%, transparent 45%, rgba(0,0,0,.7) 100%); }
+
+  .wrap { position: absolute; inset: 0; padding: 62px 70px; display: flex; flex-direction: column; }
+  .top { display: flex; align-items: center; gap: 16px; }
+  .mark { width: 30px; height: 42px; color: #4af626; filter: drop-shadow(0 0 12px rgba(74,246,38,.55)); }
+  .kicker { font-family: Consolas, 'Courier New', monospace; font-size: 17px; letter-spacing: .34em; color: #4af626; text-transform: uppercase; }
+  .rule { flex: 1; height: 1px; background: linear-gradient(90deg, #1d2c33, transparent); }
+
+  .body { flex: 1; display: flex; align-items: center; gap: 40px; }
+  .copy { width: 640px; }
+  h1 { font-size: 86px; line-height: .94; font-weight: 800; letter-spacing: -.035em; }
+  h1 span { display: block; color: #4af626; text-shadow: 0 0 40px rgba(74,246,38,.35); }
+  .pitch { margin-top: 24px; font-size: 33px; font-weight: 600; color: #93ff70; }
+  .sub { margin-top: 14px; font-size: 20px; color: #83978f; letter-spacing: .01em; }
+  .chips { margin-top: 30px; display: flex; gap: 10px; }
+  .chip { padding: 9px 15px; border: 1px solid #1d2c33; background: #0d1418; border-radius: 3px; font-family: Consolas, monospace; font-size: 16px; color: #b6c6c2; }
+
+  .crt { position: relative; width: 380px; height: 330px; flex: none; }
+  .crt svg { width: 100%; height: 100%; }
+
+  .bottom { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #1d2c33; padding-top: 22px; }
+  .url { font-family: Consolas, monospace; font-size: 19px; color: #b6c6c2; letter-spacing: .06em; }
+  .badge { display: flex; align-items: center; gap: 10px; font-family: Consolas, monospace; font-size: 15px; color: #4af626; letter-spacing: .18em; text-transform: uppercase; }
+  .dot { width: 10px; height: 10px; background: #4af626; box-shadow: 0 0 14px rgba(74,246,38,.8); }
+
+  /* icon mode: 180x180 apple-touch-icon */
+  body.icon { width: 180px; height: 180px; }
+  body.icon .wrap, body.icon .grid, body.icon .glow, body.icon .scan, body.icon .vig { display: none; }
+  body.icon .icon-only { display: grid; }
+  .icon-only {
+    display: none; position: absolute; inset: 0; place-items: center;
+    background: radial-gradient(circle at 50% 40%, #10240f, #070a0c 70%);
+  }
+  .icon-only svg { width: 96px; height: 134px; color: #4af626; filter: drop-shadow(0 0 18px rgba(74,246,38,.6)); }
+</style>
+</head>
+<body>
+  <div class="grid"></div><div class="glow"></div>
+  <div class="wrap">
+    <div class="top">
+      <svg class="mark" viewBox="0 0 5 7" shape-rendering="crispEdges"><g fill="currentColor"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="6"/><rect x="4" y="1" width="1" height="6"/><rect x="1" y="3" width="3" height="1"/></g></svg>
+      <span class="kicker">Portfolio // 2026</span>
+      <span class="rule"></span>
+    </div>
+    <div class="body">
+      <div class="copy">
+        <h1>ARNON<span>HACOHEN</span></h1>
+        <p class="pitch">I rebuild stuff I love.</p>
+        <p class="sub">Self-taught full stack developer &middot; Israel</p>
+        <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Linux</span><span class="chip">Game dev</span></div>
+      </div>
+      <div class="crt">
+        <svg viewBox="0 0 380 330" fill="none">
+          <defs>
+            <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#0d2a12"/><stop offset="1" stop-color="#04120a"/>
+            </linearGradient>
+            <radialGradient id="bloom" cx=".5" cy=".45" r=".6">
+              <stop offset="0" stop-color="#4af626" stop-opacity=".38"/><stop offset="1" stop-color="#4af626" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="case" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#22323b"/><stop offset="1" stop-color="#0e171c"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="190" cy="150" rx="185" ry="150" fill="url(#bloom)"/>
+          <rect x="42" y="34" width="296" height="222" rx="20" fill="url(#case)" stroke="#33474f" stroke-width="2"/>
+          <rect x="60" y="52" width="260" height="176" rx="12" fill="url(#screen)" stroke="#1f7a12" stroke-width="2"/>
+          <g fill="#4af626">
+            <rect x="78" y="72" width="86" height="9" rx="4" opacity=".95"/>
+            <rect x="78" y="94" width="164" height="7" rx="3.5" opacity=".55"/>
+            <rect x="78" y="112" width="128" height="7" rx="3.5" opacity=".45"/>
+            <rect x="78" y="130" width="184" height="7" rx="3.5" opacity=".55"/>
+            <rect x="78" y="148" width="98" height="7" rx="3.5" opacity=".4"/>
+            <rect x="78" y="176" width="58" height="9" rx="4" opacity=".9"/>
+            <rect x="144" y="176" width="9" height="12" opacity=".95"/>
+          </g>
+          <g stroke="#000" stroke-width="2" opacity=".28">
+            <path d="M60 60h260M60 72h260M60 84h260M60 96h260M60 108h260M60 120h260M60 132h260M60 144h260M60 156h260M60 168h260M60 180h260M60 192h260M60 204h260M60 216h260"/>
+          </g>
+          <rect x="150" y="256" width="80" height="20" rx="4" fill="#16212a"/>
+          <rect x="112" y="276" width="156" height="14" rx="7" fill="#1b2830" stroke="#2b3d45" stroke-width="1.5"/>
+          <circle cx="308" cy="240" r="5" fill="#4af626"/>
+          <g fill="#4af626" opacity=".9">
+            <rect x="322" y="286" width="8" height="8"/><rect x="338" y="286" width="8" height="8"/>
+            <rect x="314" y="294" width="8" height="8"/><rect x="330" y="294" width="8" height="8"/><rect x="346" y="294" width="8" height="8"/>
+            <rect x="322" y="302" width="8" height="8"/><rect x="338" y="302" width="8" height="8"/>
+            <rect x="330" y="310" width="8" height="8"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="bottom">
+      <span class="url">github.com/arnon001</span>
+      <span class="badge"><span class="dot"></span>Press start</span>
+    </div>
+  </div>
+  <div class="scan"></div><div class="vig"></div>
+  <div class="icon-only">
+    <svg viewBox="0 0 5 7" shape-rendering="crispEdges"><g fill="currentColor"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="6"/><rect x="4" y="1" width="1" height="6"/><rect x="1" y="3" width="3" height="1"/></g></svg>
+  </div>
+  <script>if (location.hash === '#icon') document.body.classList.add('icon');</script>
+</body>
+</html>
